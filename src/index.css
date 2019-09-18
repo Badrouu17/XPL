@@ -17,11 +17,26 @@ code {
 /* start */
 
 body {
+  background-color: #000000;
   background-image: url(./img/star-background.jpg);
   background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   font-family: "Saira Stencil One", cursive;
+}
+
+@media only screen and (max-width: 615px) {
+  html {
+    background-color: #000000;
+    background-image: url(./img/star-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Saira Stencil One", cursive;
+    min-height: 100vh;
+  }
 }
 
 .container {
@@ -195,6 +210,12 @@ a:hover {
 .news-image {
   height: 60%;
   width: 90%;
+}
+
+@media only screen and (max-width: 615px) {
+  .news-content {
+    font-size: 10px;
+  }
 }
 
 #footer {

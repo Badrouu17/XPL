@@ -12,7 +12,7 @@ const News = props => {
           <p> {explanation}</p>
           <Image src={hdurl} className="news-image" />
           <br />
-          <i style={{ float: "right", marginTop: "20" }}>- {date}</i>
+          <i style={{ float: "right", marginTop: "20" }}>{date}</i>
         </div>
       </div>
     );
@@ -21,7 +21,7 @@ const News = props => {
       <div id="news">
         <h1>Daily News</h1>
         <div className="news-content">
-          <h3>NOT FOUND</h3>
+          <h3>DATA NOT FOUND</h3>
         </div>
       </div>
     );
