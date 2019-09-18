@@ -1,3 +1,5 @@
+/* for react */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -10,4 +12,220 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* start */
+
+body {
+  background-image: url(./img/star-background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Saira Stencil One", cursive;
+}
+
+.container {
+  margin: 0 auto;
+  height: auto;
+}
+
+.container-stretch {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+/*HOME*/
+
+#home {
+  background-image: url(./img/home-background2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-navbar {
+  list-style: none;
+  float: right;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  color: #bfbfbf;
+  font-size: 20px;
+  font-family: "Saira Stencil One", cursive;
+}
+
+.nav-item {
+  margin-right: 60px;
+}
+
+a {
+  color: #bfbfbf;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.home-content {
+  color: #ffffff;
+  align-self: center;
+  margin-top: 180px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
+
+.home-content-title {
+  font-family: "Saira Stencil One", cursive;
+  text-align: center;
+  font-size: 80px;
+  letter-spacing: 18px;
+  opacity: 0.9;
+}
+
+.home-content-author {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 8px;
+}
+
+@media only screen and (max-width: 615px) {
+  .home-content-title {
+    font-size: 60px;
+  }
+  .home-content-author {
+    font-size: 13px;
+  }
+
+  .nav-item {
+    margin-right: 45px;
+  }
+
+  .home-navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 6px;
+    float: none;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .home-content-title {
+      font-size: 30px;
+    }
+    .home-content-author {
+      font-size: 8px;
+    }
+  }
+}
+
+.small-menu-className {
+  color: #ffffff;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+#about {
+  margin-top: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-row {
+  margin: 60px 0px;
+}
+
+.about-images {
+  margin-bottom: 60px;
+  height: 70%;
+  width: 70%;
+}
+
+.about-3-desc {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#maps {
+  color: #ffffff;
+  text-align: center;
+}
+
+.maps-title {
+  margin-bottom: 30px;
+}
+
+.maps-images {
+  height: 60%;
+  width: 60%;
+}
+
+.maps-rows {
+  margin: 120px 0px;
+}
+
+.maps-desc {
+  margin: 60px 0px;
+}
+
+#news {
+  margin-top: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Squada+One&display=swap");
+
+.news-content {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 60px 40px;
+  margin: 20px 100px;
+  text-align: center;
+  font-family: "Squada One", cursive;
+  font-size: 20px;
+}
+
+.news-image {
+  height: 60%;
+  width: 90%;
+}
+
+#footer {
+  background-color: #4d4d4d;
+  color: #ffffff;
+  text-align: center;
+  padding: 70px 0px;
+  margin-top: 200px;
+}
+
+.footer-cols {
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.footer-cols:hover {
+  background-color: #333333;
+}
+
+.footer-cols-icon {
+  font-size: 60px;
+}
+.footer-cols-p {
+  color: #999999;
+}
+
+.footer-row {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 4px solid #ffffff;
 }
