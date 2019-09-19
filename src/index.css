@@ -107,6 +107,12 @@ a:hover {
   letter-spacing: 8px;
 }
 
+@media only screen and (max-width: 900px) {
+  #home {
+    background-size: auto 100vh;
+  }
+}
+
 @media only screen and (max-width: 615px) {
   .home-content-title {
     font-size: 60px;
