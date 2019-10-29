@@ -51,7 +51,7 @@ const Footer = () => {
         <Row>
           <Col>
             <div>
-              ©2019 Code and Design by Badrouu Laabed. Data provided by NASA.
+              ©2019 Code and Design by Badreddin Laabed. Data provided by NASA.
             </div>
           </Col>
         </Row>
